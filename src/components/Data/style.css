@@ -1,0 +1,108 @@
+.asidebar{
+    background: linear-gradient(90deg, #6f73c2 0%, rgb(82, 116, 184) 50%);
+    height: 100vh;
+
+}
+.pop-b{
+    display: flex;
+    justify-content: flex-start;
+}
+.main{
+    height: 100vh;
+}
+.overlay {
+    position: fixed;
+    top: 0;
+    overflow-y: scroll;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+
+    visibility: hidden;
+    opacity: 1;
+  }
+  .overlay:target {
+    visibility: visible;
+    opacity: 1;
+  }
+  
+  .popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+   
+  }
+  
+  .popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+  }
+  .popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+  }
+  .popup .close:hover {
+    color: #a097ff;
+  }
+  .popup .content {
+    max-height: 30%;
+    overflow: auto;
+  }
+  .inputPop{
+    padding: 15px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin-bottom: 10px;
+	width: 100%;
+	box-sizing: border-box;
+	font-family: montserrat;
+	color: #2C3E50;
+	font-size: 13px;
+  }
+  .btn-d{
+    width: 100%;
+	background: #2C3E50;
+	font-weight: bold;
+	color: white;
+	border: 0 none;
+	border-radius: 1px;
+	cursor: pointer;
+	padding: 10px 5px;
+	box-sizing: border-box;
+
+  }
+  .newclient-btn{
+width: 20%;
+
+background: #8d9195;
+font-weight: bold;
+color: white;
+border: 0 none;
+border-radius: 1px;
+cursor: pointer;
+padding: 10px 5px;
+margin: 10px 0;
+box-sizing: border-box;
+  }
+  .btn-add{
+    display:flex ;
+    justify-content: flex-end;
+  }
+  .newclient-btn:hover{
+    background: #5274b8;
+  }
+  .tilepRd{
+    text-align: center;
+    font-weight: 600;
+  }

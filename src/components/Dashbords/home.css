@@ -1,0 +1,24 @@
+
+.menu-home-item{
+    background-color: #4c5caf;
+    width :400px;
+    min-height: 200px;
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+  
+    cursor: pointer;
+}
+#menu-home{
+    max-width: 100vw;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.menu-home-item:hover{
+    opacity: 0.8;
+}

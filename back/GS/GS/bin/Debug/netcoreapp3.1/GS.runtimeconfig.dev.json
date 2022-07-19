@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\Hexor\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Hexor\\.nuget\\packages"
+    ]
+  }
+}

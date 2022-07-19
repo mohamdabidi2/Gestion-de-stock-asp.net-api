@@ -1,0 +1,54 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(90deg, #6f73c2 0%, #5274b8 50%);
+}
+.drop-down{
+    display: none;
+}
+li{
+    list-style-type: none;
+}
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menuhello{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+.AgentPhoto{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin: 2px 5px;
+    border: rgba(73, 177, 73, 0.479) 3px solid;
+}
+.icon-asa{
+    padding: 0 10px;
+}
+.drop{
+font-weight: 700;
+font-size: 28px;
+cursor: pointer;
+position: relative;
+color: white;
+}
+.drop:hover .drop-down{
+    display: flex;
+}
+.hellomessage{
+    color: white;
+}
+.nameagent{
+    font-weight: 500;
+    font-style: italic;
+}
+.drop-down{
+    position: absolute;
+}

@@ -1,0 +1,103 @@
+.devis-container{
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 9998;
+
+    visibility: visible;
+    opacity: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.corrdo{
+    font-weight: 400;
+    color: black;
+}
+.logo-devis{
+    width: 200px;
+}
+.dev-c{
+    background-color: #fff;
+    position: relative;
+    width: 800px;
+    padding: 50px;
+
+}
+.btn-abs{
+    position: absolute;
+    top: 5% ;
+    right: 45%;
+    z-index: 9999;
+
+}
+.btn-candprint{
+    background-color: #4c5caf;
+    color: white;
+    padding: 5px 10px;
+    margin: 0 10px;
+    border: none;
+    transition: all ease-in-out 200ms;
+    cursor: pointer;
+}
+.btn-candprint:hover{
+    opacity: 0.7;
+}
+.client-info{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+.client-info-item,.dvs-info-item{
+    width: 200px;
+    margin: 0;
+    font-weight: 700;
+    color: black;
+    padding: 5px 0;
+}
+.table-produit{
+    margin-top: 60px;
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%;
+ 
+}
+.titles-devis{
+    background-color:    #4c5caf;
+    color: white;
+}
+.tab2{
+    display: flex;
+    justify-content: flex-end;
+}
+.Tot-tva{
+    margin-top: 40px;
+    border-collapse: collapse;
+    text-align: center;
+    width: 30%;
+    background-color:    #e8e8e8;
+    border-color: rgb(176, 176, 176);
+
+ 
+ 
+}
+.produit-for-devis{
+    background-color:    #e8e8e8;
+
+}
+.tottva-head-h{
+    font-weight: 600;
+    background-color:    #4c5caf;
+    color: white;
+}
+.CetR{
+    margin: 2px;
+}
+.cachete{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
